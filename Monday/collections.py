@@ -18,18 +18,20 @@ A dictionary is: A dictionary is a collection which is unordered, changeable and
 
 A list is: A list is a collection which is ordered and changeable. In Python lists are written with square brackets.
 _____
+Mutable collections: 
+Lists (also allows duplicate members)
+Dictionaries (no duplicate members)
 
-List is a collection which is ordered and changeable. Allows duplicate members.
-Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
-Set is a collection which is unordered and un-indexed. No duplicate members.
-Dictionary is a collection which is unordered, changeable and indexed. No duplicate members.
+Immutable collections:
+Tuples (allows duplicate members)
+Sets (no duplicate members)
 """
 
 # Tuples
 cities = ('Edinburgh', 'Dublin', 'Bristol', 'Paris', True, 42) # We cannot mutate members of a tuple
 print(cities[2], cities[::-1], type(cities))
 print(cities[0:4])
-print([city for city in cities if type(city) == str]) # Little logic to just print string
+print([city for city in cities if type(city) == str]) # Little logic to just print strings in our tuple
 
 # Sets
 villages = {'Lennoxtown', 'Cumbernauld', 'Alloa', 'Lenzie'} # Sets can also be created with the keyword set i.e. set(1, 2, 3)
@@ -53,6 +55,20 @@ print(clubs[2]['country'])
 menu = ['apple', 'cheese', 'banana', 'crisps', 'lettuce']
 menu[3] = 'onion' # Mutable members
 print(menu[1], menu[3], menu[0:3])
+
+print('apple' in menu, 'orange' in menu)
+print(menu.index('cheese'))
+
+## Using conditional logic
+if 'apple' in menu:
+  print("We've got apples yo!")
+
+searchterm = input('What are you looking for? ')
+if searchterm in menu:
+  print('We have', searchterm, 'at position', menu.index(searchterm))
+else:
+  print("We don't have", searchterm)
+
 
 # Data modelling - How and when to use collections
 """
