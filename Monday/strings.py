@@ -1,4 +1,5 @@
 # Let's have a look at strings, Strings are immutable by nature
+# Strings are an immutable collection of characters (IMPORTANT)
 
 username = 'Bob'
 
@@ -7,14 +8,7 @@ print(username[0]) # String collections are indexed like an array e.g. 0, 1, 2, 
 # we cannot alter a character in a string i.e.
 # username[0] = '0' this will cause an error for the reason above
 
-"""
-A tuple is:
-A set is:
-A collection is:
-"""
-
-
-# Tuples are immutable
+# Tuples are immutable (ps. definitions of tuples are in the file collections.py)
 myTuple = ('Python', 'ECMAScript', 'Java', 'Ruby')
 print(myTuple[3])
 
