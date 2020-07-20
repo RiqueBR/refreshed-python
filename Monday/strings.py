@@ -15,6 +15,16 @@ print(myTuple[3])
 # myTuple[1] = 'Javascript'
 # print(myTuple[1]) => This will error, we cannot mutate members of a tuple
 
-username = input('Please type your username:')
-print('Your new username is', username)
-print('There are', len(username), 'characters in your name. Now you know ;)')
+# username = input('Please type your username:')
+# print('Your new username is', username)
+# print('There are', len(username), 'characters in your name. Now you know ;)')
+
+### String concatenation
+
+firstName = 'Orla'
+lastName = 'O\'Connor'
+year = 1815
+
+fullname = firstName + ' ' + lastName
+print(fullname)
+print('{} {} {}'.format(firstName, lastName, year)) # This is a more efficient - we don't need to cast values as strings
