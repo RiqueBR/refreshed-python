@@ -3,10 +3,15 @@
 
 from sandbox import cleanup # Only imports the necessary function
 
+# importing a file (e.g. file) from a package (e.g. folder)
+from package.module import addValues
+
 # The following wil only run if this is the main module (not if it's been imported)
 if __name__ == '__main__':
     value = cleanup('lol')
     print(value)
+
+    print(addValues(2.45, 46, 908, 78.92379823))
 
 
 """

@@ -1,0 +1,1 @@
+# Used in legacy code where in order to use a package you'd have to add an empty file called '__init__.py', not necessary anymore
