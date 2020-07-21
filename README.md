@@ -21,3 +21,15 @@
 - Looping with 'for' and 'while'
 - Break, continue and pass
 - Range and generators
+
+## Tuesday
+- Import this
+- Data modelling and structures
+- String formatting syntax
+- While loops
+- Range, generators and comprehensions
+- Functions
+- Modules __init__ and __name__
+- Debug tools
+- Exception handling
+- File input and output
