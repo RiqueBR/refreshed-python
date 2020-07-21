@@ -29,3 +29,9 @@ def nameList(**kwargs): # **kwargs is the collection of keyword arguments
   print(kwargs)
 
 nameList(Ada='UK', Georg='Ukraine', Baird='Scot', Dermot='IE')
+
+# We are able to mix args and kwargs in the same function
+def addAllTypes(*args, **kwargs):
+  print(args, kwargs)
+
+addAllTypes(42, 'Ethel', [True, False], id = 12345, key='unlock', currentLocation = {'city': 'Edinburgh'})
