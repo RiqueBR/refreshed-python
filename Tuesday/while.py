@@ -1,4 +1,8 @@
 # Looping with the 'while' keyword
 
 while True: # also known as run-loop
-  break
+  m = input('What next? ')
+  if m == 'q':
+    break
+  else:
+    print(m.capitalize())

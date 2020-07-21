@@ -27,6 +27,7 @@
 - Data modelling and structures
 - String formatting syntax
 - While loops
+- Global scope
 - Range, generators and comprehensions
 - Functions
 - Modules __init__ and __name__
