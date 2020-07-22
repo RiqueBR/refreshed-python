@@ -34,3 +34,14 @@
 - Debug tools
 - Exception handling
 - File input and output
+
+## Wednesday
+- Decorator functions
+- Objects and classes
+- Intrinsic attributes: __doc__ etc.
+- Documentation strings (docstring)
+- Inheritance
+- Overriding custom methods in child classes
+- Operator overloading
+- Sets
+- RegEx
